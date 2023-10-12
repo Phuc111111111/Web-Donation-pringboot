@@ -10,12 +10,12 @@ Phần quyền người dùng gồm:
 -Người quản lý hệ thống - Admin, Người dùng chức năng hệ thống - User, 
 -admin phải đăng nhập tài khoản mật khẩu để truy cập vào hệ thống - quản lý
 -user phải đăng nhập mới có thể đóng góp tiền
-Chức năng user gồm:
+3 Chức năng user gồm:
 - đăng nhập , đăng xuất
 - ủng hộ tiền,
 - xem thông tin về các đợt quyên góp,
 - phân trang
-Chức Năng của ADMIN gồm :
+4 Chức Năng của ADMIN gồm :
 -quản lý danh sách user - CRUD-user - tìm kiếm, xắp xếp, phân trang- khóa tài khoản
 -quản lý các đợt quyên góp - CRUD-Quyên góp - tìm kiếm, xắp xếp, thiết lập trạng thái cho các đợt quyên góp (4 status)
 -quản lý các người dùng quyên góp - phần trang, xăp xếp, xác nhận tiền từ người dùng,
