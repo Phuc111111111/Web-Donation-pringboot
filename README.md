@@ -21,11 +21,8 @@ Phần quyền người dùng gồm:
 3 Chức năng user gồm:
 
 - đăng nhập , đăng xuất
-- 
 - ủng hộ tiền,
-- 
 - xem thông tin về các đợt quyên góp,
-- 
 - phân trang
 - 
 4 Chức Năng của ADMIN gồm :
