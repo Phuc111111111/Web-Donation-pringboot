@@ -4,9 +4,7 @@ Dự án quyên góp từ thiện sẽ đưa lên thông tin những hoàn cản
 
 Giúp bạn dễ dàng chung tay quyên góp tiền cùng hàng triệu người, giúp đỡ các hoàn cảnh khó khăn trên khắp cả nước. 
 
-Ngoài ra, người quản lý (admin) có thể theo dõi được thông tin của các đợt quyên góp thông qua: trạng thái đợt quyên góp, 
-
-số tiền của đợt quyên góp, thông tin cơ bản của những người tham gia quyên góp ,...
+Ngoài ra, người quản lý (admin) có thể theo dõi được thông tin của các đợt quyên góp thông qua: trạng thái đợt quyên góp, số tiền của đợt quyên góp, thông tin cơ bản của những người tham gia quyên góp ,...
 
 2 Chức năng hệ thống
 
