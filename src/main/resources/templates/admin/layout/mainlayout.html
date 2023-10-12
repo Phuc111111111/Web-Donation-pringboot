@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+  
+  
+  <head th:replace="admin/fragments/header.html :: header">
+  </head>
+
+<body class="sb-nav-fixed">
+
+	<div id="layoutSidenav">
+		<!-- nav-left -->
+		<div id="layoutSidenav_nav" th:replace="admin/fragments/navbar.html :: navbar">
+
+		</div>
+		
+		<!-- content page -->
+		<div id="layoutSidenav_content" th:fragment="content">
+
+		</div>
+	</div>
+	<footer th:replace="admin/fragments/footer.html :: footer_scrpit" >
+		
+	</footer>
+
+
+</body>
+</html>

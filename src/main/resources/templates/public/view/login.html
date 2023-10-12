@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Login - SB Admin</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
+          rel="stylesheet" />
+    <link rel="stylesheet" th:href="@{/user/assets/css/stylelogin.css}">
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-primary">
+
+<!-- HOME -->
+<section class="section-hero overlay inner-page bg-image" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Đăng kí / đăng nhập</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="site-section">
+
+            <body id="particles-js"></body>
+            
+                <div class="container">
+                    <span class="error animated tada" id="msg"></span>
+                    <form th:action="@{/j_spring_security_check}" method="POST" name="form1" class="box">
+                        <h4>Admin<span>Dashboard</span></h4>
+                        <h5>Sign in to your account.</h5>
+                        <input type="text" name="email" placeholder="Email" autocomplete="off">
+                        <i class="typcn typcn-eye" id="eye"></i>
+                        <input type="password" name="password" placeholder="Passsword" id="pwd" autocomplete="off">
+                        <label>
+                            <input type="checkbox">
+                            <span></span>
+                            <small class="rmb">Remember me</small>
+                        </label>
+                        <a href="#" class="forgetpass">Forget Password?</a>
+                        <input type="submit" value="Sign in" class="btn1">
+                    </form>
+                    <a href="#" class="dnthave">Don’t have an account? Sign up</a>
+                </div>
+                <div class="footer">
+                    <span>Made with <i class="fa fa-heart pulse"></i> <a
+                            href="https://www.google.de/maps/place/Augsburger+Puppenkiste/@48.360357,10.903245,17z/data=!3m1!4b1!4m2!3m1!1s0x479e98006610a511:0x73ac6b9f80c4048f"><a
+                                href="https://codepen.io/lordgamer2354">By Anees Khan</a></span>
+                </div>
+
+</section>
+
+
+</body>
+</html>
